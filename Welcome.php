@@ -1,7 +1,6 @@
 <?php
 
 $time = date('H');
-
 if($time >= 06 && $time < 12){
    $background_image = 'image/morning.png';
    echo '<h1> Goede morgen! <br> Het is nu: '. date('H').':'.date('i').'<h1/>';
